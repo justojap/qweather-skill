@@ -1,0 +1,39 @@
+# 环境配置文件（包含敏感信息，切勿提交）
+.env
+*.env.local
+*.env.production
+*.env.dev
+
+# 缓存文件（自动生成的城市缓存）
+city-cache.json
+
+# 日志文件
+*.log
+usage-log.jsonl
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
